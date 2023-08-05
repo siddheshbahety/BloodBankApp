@@ -1,7 +1,8 @@
-const testController=(req,res)=>{
+const testController = (req, res) => {
     res.status(200).send({
-        message:"welcome user",
-        success:true,
+      message: "Welcome user",
+      success: true,
     });
-};
-module.exports={testController};
+  };
+  
+  module.exports = { testController };
